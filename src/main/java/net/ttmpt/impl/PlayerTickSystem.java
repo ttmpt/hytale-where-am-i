@@ -31,7 +31,7 @@ public class PlayerTickSystem extends EntityTickingSystem<EntityStore> {
         if (player == null || playerRef == null) {
             return;
         }
-        WhereAmI.provider.showHud(dt, index, archetypeChunk, store, commandBuffer);
+        WhereAmI.provider.showHud(index, archetypeChunk, store);
     }
 
     @Nonnull
